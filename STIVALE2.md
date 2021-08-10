@@ -831,6 +831,7 @@ struct stivale2_struct_tag_kernel_file {
     uint64_t identifier;        // Identifier: 0xe599d90c2975584a
     uint64_t next;
     uint64_t kernel_file;       // Address of the raw kernel file
+    uint64_t kernel_size;       // The size of the raw kernel file
 };
 ```
 
